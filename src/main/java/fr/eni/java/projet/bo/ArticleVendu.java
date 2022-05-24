@@ -86,7 +86,7 @@ public class ArticleVendu {
 	}
 	@Override
 	public String toString() {
-		return "ArticleVendu [noArticle=" + this.noArticle + ", nomArticle=" + this.nomArticle + ", description="
+		return "Historique de la vente de l'article:%n [noArticle=" + this.noArticle + ", nomArticle=" + this.nomArticle + ", description="
 				+ this.description + ", dateDebutEncheres=" + this.dateDebutEncheres + ", dateFinEncheres="
 				+ this.dateFinEncheres + ", miseAPrix=" + this.miseAPrix + ", prixVente=" + this.prixVente
 				+ ", etatVente=" + this.etatVente + "]";
