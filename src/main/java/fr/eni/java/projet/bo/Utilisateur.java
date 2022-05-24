@@ -104,6 +104,10 @@ public class Utilisateur {
 	}
 	
 
+// constructeur sans paramètres:
+	public Utilisateur() {
+	}
+	
 //constructeur:
 	public Utilisateur(int noUtilisateur, String pseudo, String nom, String prenom, String email, int telephone,
 			String rue, int codePostal, String ville, String motDePasse, int credit, String administrateur) {
@@ -130,4 +134,5 @@ public class Utilisateur {
 	public void setAdministrateur(String administrateur) {
 		this.administrateur = administrateur;
 	}
+
 }
