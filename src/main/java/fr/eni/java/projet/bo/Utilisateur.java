@@ -56,11 +56,11 @@ public class Utilisateur {
 		this.email = email;
 	}
 
-	public int getTelephone() {
+	public String getTelephone() {
 		return this.telephone;
 	}
 
-	public void setTelephone(int telephone) {
+	public void setTelephone(String telephone) {
 		this.telephone = telephone;
 	}
 
@@ -72,11 +72,11 @@ public class Utilisateur {
 		this.rue = rue;
 	}
 
-	public int getCodePostal() {
+	public String getCodePostal() {
 		return this.codePostal;
 	}
 
-	public void setCodePostal(int codePostal) {
+	public void setCodePostal(String codePostal) {
 		this.codePostal = codePostal;
 	}
 
@@ -116,9 +116,9 @@ public class Utilisateur {
 	public Utilisateur() {
 	}
 
-//constructeur:
-	public Utilisateur(int noUtilisateur, String pseudo, String nom, String prenom, String email, int telephone,
-			String rue, int codePostal, String ville, String motDePasse, int credit, String administrateur) {
+//constructeur entier:
+	public Utilisateur(int noUtilisateur, String pseudo, String nom, String prenom, String email, String telephone,
+			String rue, String codePostal, String ville, String motDePasse, int credit, String administrateur) {
 		this.noUtilisateur = noUtilisateur;
 		this.pseudo = pseudo;
 		this.nom = nom;
@@ -131,6 +131,20 @@ public class Utilisateur {
 		this.motDePasse = motDePasse;
 		this.credit = credit;
 		this.administrateur = administrateur;
+	}
+
+//constructeur avec tout ce que l'utilisateur entre réellement (je sais pas si ça peut servir)
+	public Utilisateur(String pseudo, String nom, String prenom, String email, String telephone, String rue,
+			String codePostal, String ville, String motDePasse) {
+		this.pseudo = pseudo;
+		this.nom = nom;
+		this.prenom = prenom;
+		this.email = email;
+		this.telephone = telephone;
+		this.rue = rue;
+		this.codePostal = codePostal;
+		this.ville = ville;
+		this.motDePasse = motDePasse;
 	}
 
 }

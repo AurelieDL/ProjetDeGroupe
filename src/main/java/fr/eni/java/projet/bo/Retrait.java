@@ -40,8 +40,7 @@ public class Retrait {
 
 	@Override
 	public String toString() {
-		return "Le retrait se fera à l'adresse suivante:%n [rue=" + this.rue + ", code_postal=" + this.code_postal
-				+ ", ville=" + this.ville + "]";
+		return "Le retrait [rue=" + this.rue + ", code_postal=" + this.code_postal + ", ville=" + this.ville + "]";
 	}
 
 }
