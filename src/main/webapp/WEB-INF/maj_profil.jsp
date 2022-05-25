@@ -92,7 +92,7 @@
 		
 
 		<div class="block-inner">
-				<label for="credit">Crédit: </label> <input type="text" class="form-control"
+				<label for="credit">Crédit: </label> <input type="number" class="form-control"
 					id="credit" placeholder="" value="" required>
 			</div>
 		<div style="text-align: center; padding-top:20px;">
