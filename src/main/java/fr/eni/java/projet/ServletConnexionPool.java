@@ -16,7 +16,9 @@ import javax.servlet.http.HttpServletResponse;
 import javax.sql.DataSource;
 
 
-@WebServlet("/servletConnexionPool")
+
+@WebServlet("/ServletConnexionPool")
+
 public class ServletConnexionPool extends HttpServlet{
 	private static final long serialVersionUID = 1L;
     
