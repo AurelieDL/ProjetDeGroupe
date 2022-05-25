@@ -16,8 +16,8 @@ import javax.servlet.http.HttpServletResponse;
 import javax.sql.DataSource;
 
 
-@WebServlet("/servletConnexionPool")
-public class servletConnexionPool extends HttpServlet{
+@WebServlet("/ServletConnexionPool")
+public class ServletConnexionPool extends HttpServlet{
 	private static final long serialVersionUID = 1L;
     
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

@@ -46,6 +46,13 @@ public class ServletInscriptionUtilisateur extends HttpServlet {
 		String codePostal = (String) request.getParameter("cp");
 		String ville = (String) request.getParameter("ville");
 		String motDePasse = (String) request.getParameter("mdp");
+		
+		// Il faudra bien envoyer les infos vers le bas ! J'ai repris l'exemple de ajoutAvis
+		// UtilisateurManager utilisateurManager = new UtilisateurManager();
+		
+		// Là il faut faire référence à une méthode qu'on créera dans UtilisateurManager
+		// Utilisateur utilisateur = utilisateurManager.ajouter();
+		
 		doGet(request, response);
 	}
 
