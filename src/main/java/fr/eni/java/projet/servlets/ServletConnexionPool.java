@@ -1,4 +1,4 @@
-package fr.eni.java.projet;
+package fr.eni.java.projet.servlets;
 
 import java.io.IOException;
 import java.io.PrintWriter;
