@@ -24,5 +24,6 @@
 		<servlet-name>majProfil</servlet-name>
 		<url-pattern>/maj_profil</url-pattern>
 	</servlet-mapping>
+	
 
 </web-app>
